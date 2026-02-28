@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/shared.css">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Projects</title>
+</head>
+<body>
+     <div class="container">
+        <header> 
+             <h1 class="title-rubric"> Projects Page!</h1>
+        </header>
+
+        <nav>
+            <ul class="nav-container">
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="cv.html" >CV</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="contact.html" >Contact</a></li>
+            </ul>
+        </nav>
+
+        <main class="hero projects-page">
+          
+               <article class="project-card">
+                    <h2>Slava Bank</h2>
+                     <div class="project-media">
+                    <img src="./images/slava-bank.png" alt="Screenshot of Slava Bank project" class="project-img">
+                    </div>
+                     <p class="project-description"> Team project website built during a group work</p>
+                    <a href="#popup1" class="projects-description">Read More</a>
+               
+                </article>
+
+                <article class="project-card">
+                    <h2>Milton</h2>                   
+                     <div class="project-media">
+                    <img src="./images/milton.jpg" alt="Milton project image" class="project-img" >
+                </div>
+                   <p class="project-description">Team project website built during hackathon.</p>
+                    <a href="#popup2" class="projects-description">Read More</a>
+                 
+                </article>
+                
+                <article class="project-card">
+                    <h2>Database School</h2>                   
+                    <div class="project-media">
+                    <img src="./images/er-model.png" alt="Database School project image" class="project-img" >
+                    </div>
+                     <p class="project-description">Solo project built under 3 assignments.</p>
+                    <a href="#popup3" class="projects-description">Read More</a>
+                 
+                </article>
+                 
+                 <article class="project-card">
+                    <h2>Rest-API</h2>                   
+                    <div class="project-media">
+                    <img src="./images/rest-api.png" alt="Database Rest API project image" class="project-img" >
+                    </div>
+                     <p class="project-description">Solo project built under assignments.</p>
+                    <a href="#popup4" class="projects-description">Read More</a>
+                 
+                </article>
+               
+             <div id="popup1" class="modal">
+        <div class="modal-content">
+             <h3>Bank Application</h3>
+            <p>This project is a Console Application written in C# for a group project.<br>
+
+           <strong>Features:</strong> </p>
+        <ul >
+          <li> A UI library used for creating a good looking user interface inside the application.</li>
+            <li>  Secure user storing using PBKDF2 hashing.</li>
+            <li> Dashboard and features for both a regular client and an admin.</li>
+            <li> Multiple different accounts such as Checking, Loan and Savings account.</li>
+            <li> Ability to make transactions between accounts.</li>
+            <li> Ability to take out loans.</li>
+            <li> 2-Factor Authentication.</li>
+        
+        </ul>
+
+            <a href="https://github.com/janne022/bank-app" class="projects-ref">Visit Slava Bank Repository</a>
+
+         
+            <a href="#" class="modal-close">&times;</a>
+        </div>
+    </div>
+
+    <div id="popup2" class="modal">
+        <div class="modal-content">
+            <h3>MILTON</h3>
+            <p>Team project application built during hackathon. <br> <strong>Features:</strong> </p>
+             <ul >
+          <li> Language Agnostic: Supports Python, JavaScript, TypeScript, Java, C, C++, and C#.</li>
+            <li> Deterministic: Produces consistent output for the same input.</li>
+            <li>Rule-Based: Uses strict rules for component aggregation, avoiding AI hallucination.</li>
+            <li> Tree-sitter Powered: Uses robust incremental parsing.</li>
+            <li> Business Rule Extraction: Automatically detects validation logic and error conditions.</li>
+            <li> Smart Classification: Distinguishes between Domain, Orchestration, Interaction, and Infrastructure components.</li>       
+        </ul>
+            <a href="https://github.com/janne022/MILTON-Clustering" class="projects-ref">Visit Milton Repository</a>
+            <a href="#" class="modal-close">&times;</a>
+        </div>
+    </div>
+
+
+     <div id="popup3" class="modal">
+        <div class="modal-content">
+            <h3>School System Database</h3>
+            <p>This was a three-stage school assignment, starting with database design and followed by development and data integration. 
+
+                It provided me with a solid understanding of database workflows and the Database-First approach.</p>
+            <a href="https://github.com/Svyatoslav-Lapshin/Labb-4-SchoolDB" class="projects-ref" >Visit Database School Repository</a>
+              
+                 
+            <a href="#" class="modal-close">&times;</a>
+        </div>
+    </div>
+            <div id="popup4" class="modal">
+        <div class="modal-content">
+            <h3>Rest API </h3>
+            <p>This project was built using the Code-First approach and Minimal API, focusing on structured database design.</p>
+            <a href="https://github.com/Svyatoslav-Lapshin/RestAPI-Labb" class="projects-ref">Visit Rest-API Repository</a>
+              
+                 
+            <a href="#" class="modal-close">&times;</a>
+        </div>
+            </div>
+        
+
+        <div id="popup-418" class="modal">
+                    <div class="modal-content">
+                        <img src="./images/418.jpg" alt="418" class="popUp-img" >
+                                            
+                    <a  id= "modal-close" href="#" class="modal-close">&times;</a>
+                </div>
+        </div>
+      
+        
+        </main>
+
+        <footer  class="footer">
+            <button id="colorBtn">Toggle theme</button>
+            <p>&copy; 2026 Svyatoslav.</p>
+            <p>Built with HTML, CSS & passion            
+            </p>
+    
+   
+         </footer>
+    </div>
+  <script src="script.js" ></script>  
+</body>
+</html>
