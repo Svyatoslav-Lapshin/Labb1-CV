@@ -26,7 +26,7 @@ body.light-background {
 body{
    background-color: #721E1E;
    color: #E2D797;  
-    font-family: 'Unbounded', sans-serif;
+    font-family: "Noto Sans", sans-serif;
     font-weight: 800;  
     line-height: 1.5;  
 }
@@ -97,7 +97,7 @@ nav {
 
 main {
     grid-area: main;
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Merriweather', sans-serif;
     font-weight: 400;
     letter-spacing: 1px;  
 }
