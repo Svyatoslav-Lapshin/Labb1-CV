@@ -30,7 +30,7 @@
 }
 
 .hero article h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -150,7 +150,7 @@ body:has(.modal:target) {
 }
 
 .work-experience li {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 .contact-message p {
   font-size: 1.3rem;
